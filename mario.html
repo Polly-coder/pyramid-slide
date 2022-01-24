@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pyramid for Mario</title>
+    <style>
+        p{
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="top" style=" background-color: hotpink ">This is pyramid for Mario</div>
+    <div class="center">
+        <div class="settings">
+            <label for="select">Choose icon</label>
+            <select id = 'select' name="Icons">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+            </select>
+            <label for="input">How high?</label>
+            <input type="range" id="input" min=2 max=10>
+        </div>
+        <div class="pyramid"></div>
+    </div>
+<script src="mario.js"></script>
+</body>
+</html>
